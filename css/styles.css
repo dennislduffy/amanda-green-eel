@@ -1,3 +1,15 @@
+a {
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: white;
+  color: black;
+}
+
 /*Header*/
 .header {
   background-color: gray;
