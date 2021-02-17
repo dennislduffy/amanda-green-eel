@@ -1,7 +1,7 @@
 a {
   outline: none;
   text-decoration: none;
-  color: white;
+  color: #27253d;
 }
 
 a:hover {
@@ -12,7 +12,7 @@ a:hover {
 
 /*Header*/
 .header {
-  background-color: gray;
+  background-color: #f5f5c6;
 }
 .menu {
   text-align: right;
