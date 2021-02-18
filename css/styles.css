@@ -12,17 +12,32 @@ a:hover {
 
 /*Top Menu*/
 .top-menu {
-  height: 100px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+  justify-content: flex-start;
+  padding-left: 20px;
 }
 
 .menu {
   text-align: right;
-  padding: 40px 20px 40px 0px;
+  padding: 100px 30px 100px 0px;
+  justify-content: flex-end;
 }
 
 .menu-item {
   display: inline;
-  padding: 0px 15px 0px 15px;
+  padding: 0px 30px 0px 30px;
+  font-size: 1.2em;
+}
+
+.menu-color {
+  color: #274e13;
 }
 
 /*Header*/
