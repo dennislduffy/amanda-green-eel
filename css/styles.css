@@ -1,0 +1,41 @@
+a {
+  outline: none;
+  text-decoration: none;
+  color: #27253d;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: white;
+  color: black;
+}
+
+/*Top Menu*/
+.top-menu {
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 200px;
+  width: 200px;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.menu {
+  text-align: right;
+  padding: 100px 30px 100px 0px;
+  justify-content: flex-end;
+}
+
+.menu-item {
+  display: inline;
+  padding: 0px 30px 0px 30px;
+  font-size: 1.2em;
+}
+
+.menu-color {
+  color: #274e13;
+}
