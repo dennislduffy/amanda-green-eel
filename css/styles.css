@@ -21,7 +21,7 @@ a:hover {
   height: 200px;
   width: 200px;
   justify-content: flex-start;
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .menu {
@@ -38,4 +38,59 @@ a:hover {
 
 .menu-color {
   color: #274e13;
+}
+
+/*header*/
+
+.header {
+  background-image: url("../images/guitar.jpg");
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+}
+
+.header-text {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  max-width: 400px;
+}
+
+/*about*/
+.about {
+  max-width: 400px;
+  text-align: center;
+  margin: 100px auto 100px auto;
+}
+
+.about__h {
+  font-size: 3em;
+}
+
+.about__p {
+  margin: 20px 0 50px 0;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+
+.about__link {
+  font-weight: bold;
+  margin-top: 100px;
+  padding: 10px;
+  border: 1px solid;
+  border-color: #274e13;
+  border-radius: 15px;
+  color: #274e13;
+}
+
+.about__link:hover {
+  background-color: #274e13;
+  color: white;
 }
