@@ -32,12 +32,25 @@ a:hover {
 
 .menu-item {
   display: inline;
-  padding: 0px 30px 0px 30px;
-  font-size: 1.2em;
+  padding: 10px 0px;
+  margin: 0px 10px;
 }
 
 .menu-color {
+  font-weight: bold;
+  margin-top: 100px;
+  padding: 15px;
+  margin: 0px;
+  border: 1px solid;
+  border-color: #274e13;
+  border-radius: 20px;
   color: #274e13;
+}
+
+.menu-color:hover {
+  background-color: #274e13;
+  color: white;
+  border: 0px;
 }
 
 /*header*/
@@ -86,11 +99,12 @@ a:hover {
   padding: 10px;
   border: 1px solid;
   border-color: #274e13;
-  border-radius: 15px;
+  border-radius: 20px;
   color: #274e13;
 }
 
 .about__link:hover {
   background-color: #274e13;
   color: white;
+  border: 0px;
 }
